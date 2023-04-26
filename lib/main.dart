@@ -23,7 +23,7 @@ class MyApp extends StatelessWidget {
           splitScreenMode: true,
           builder: (context, child) => MaterialApp(
                 debugShowCheckedModeBanner: false,
-                title: 'ToDo',
+                title: 'Fitness App',
                 theme: AppThemes().lightTheme(),
                 home: const DashBoard(),
               )),
